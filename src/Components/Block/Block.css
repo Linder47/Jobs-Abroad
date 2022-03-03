@@ -1,0 +1,27 @@
+/* каждого блока есть свой класс. Стили прописываются к каждому блоку здесь! */
+
+.pros {
+    background-color: brown;
+}
+
+.title {
+    font-family: 'Montserrat';
+    font-size: 48px;
+    line-height: 130%;
+    text-align: center;
+    height: 55px;
+    margin-bottom: 70px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.vacations {
+    display: flex;
+    /*flex-direction: row;*/
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.btn-outline-primary {
+    border-radius: 40px;
+}

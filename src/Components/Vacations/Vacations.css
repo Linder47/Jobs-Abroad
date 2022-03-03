@@ -1,0 +1,17 @@
+p {
+    font-size: 18px;
+}
+
+.vacation {
+    display: flex;
+    background-color: #f7f7f7;
+    width: 222px;
+    height: 305px;
+    border-radius: 4px;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.vacation-image {
+    height: 177px;
+}

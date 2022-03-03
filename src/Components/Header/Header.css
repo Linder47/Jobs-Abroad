@@ -1,0 +1,28 @@
+.nav {
+    display: flex;
+    background-color:rgba(247, 247, 247, 0.4);
+    height: 53px;
+align-items: center;
+    /* filter: blur(8px);
+  -webkit-filter: blur(8px); */
+}
+
+.link {
+    margin-left: 40px;
+    margin-right: 40px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #202020;
+}
+
+.active {
+    font-weight: 600;
+}
+
+.inactive {
+    font-weight: 400;
+}
+
+.link:hover {
+
+}
